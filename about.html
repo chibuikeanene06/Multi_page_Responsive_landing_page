@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me | Chibuike Anene</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0;
+    color: #333;
+  }
+  nav {
+    background: #00adb5;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 1rem;
+    font-weight: bold;
+  }
+  .section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+    animation: fadeIn 1s ease-in;
+  }
+  footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (max-width: 768px) {
+    nav { flex-direction: column; text-align: center; }
+  }
+</style>
+
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: #f0f0f0; color: #333; }
+    nav { background: #00adb5; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; text-decoration: none; margin: 0 1rem; font-weight: bold; }
+    .section { padding: 3rem 2rem; max-width: 800px; margin: auto; text-align: center; }
+    .profile-pic { width: 180px; border-radius: 50%; margin-bottom: 1.5rem; }
+    footer { background: #222; color: #aaa; text-align: center; padding: 1.5rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+<nav>
+  <div><strong>Chibuike Anene</strong></div>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+<section class="section">
+  <img src="https://via.placeholder.com/180" alt="Profile Picture" class="profile-pic" />
+  <h1>About Me</h1>
+  <p>Hello! I'm Chibuike, a frontend developer passionate about crafting beautiful user experiences. I love bringing ideas to life through code and design.</p>
+</section>
+<footer>&copy; 2025 Chibuike Anene. All rights reserved.</footer>
+</body>
+</html>
